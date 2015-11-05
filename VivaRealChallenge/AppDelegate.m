@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "CollectionViewController+Factory.h"
+
+static NSString * const StoryboardIdentifier = @"Main";
+static NSString * const MainNavigationController = @"MainNavigationController";
 
 @interface AppDelegate ()
 
@@ -16,7 +20,32 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	// Override point for customization after application launch.
+
+
+	/**
+	 *  Dependency Injection
+	 */
+	CollectionViewController *rootViewController = [CollectionViewController factoryInstance];
+	UINavigationController *navigationController = [[UIStoryboard storyboardWithName:StoryboardIdentifier bundle:nil] instantiateViewControllerWithIdentifier:MainNavigationController];
+	[navigationController setViewControllers:@[rootViewController]];
+	self.window.rootViewController = navigationController;
+	[self.window makeKeyAndVisible];
+	
+	
+	
+	/**
+	 *  Appearance
+	 */
+	[[UINavigationBar appearance] setBarTintColor:[UIColor colorWithWhite:0.126 alpha:1.000]];
+//	[[UINavigationBar appearance] setTranslucent:NO];
+	//Code used to remove the 1px line at the bottom of the navigation bar. @see http://stackoverflow.com/questions/19226965/how-to-hide-ios7-uinavigationbar-1px-bottom-line
+//	[[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarPosition:UIBarPositionAny barMetrics:UIBarMetricsDefault];
+//	[[UINavigationBar appearance] setShadowImage:[UIImage new]];
+	[[UINavigationBar appearance] setTintColor:[UIColor colorWithRed:0.908 green:0.926 blue:0.932 alpha:1.000]];
+	[[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+														   [UIColor colorWithRed:0.910 green:0.925 blue:0.933 alpha:1.000],NSForegroundColorAttributeName, nil]];
+	
+	
 	return YES;
 }
 

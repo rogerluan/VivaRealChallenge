@@ -8,16 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		2DF2C2AE01A1BB0DA1314354 /* libPods-VivaRealChallenge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBA470A742FD9FAC3E4D8CC4 /* libPods-VivaRealChallenge.a */; };
+		C57077CE1BEB6EA8008903DD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57077CD1BEB6EA8008903DD /* SystemConfiguration.framework */; };
+		C58E9F181BEB56AB008637E6 /* GameCardViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C58E9F171BEB56AB008637E6 /* GameCardViewCell.xib */; };
 		C5BA60D11BEAF58C003F87DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA60D01BEAF58C003F87DF /* main.m */; };
 		C5BA60D41BEAF58C003F87DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5BA60D31BEAF58C003F87DF /* AppDelegate.m */; };
 		C5BA60DA1BEAF58C003F87DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BA60D81BEAF58C003F87DF /* Main.storyboard */; };
 		C5BA60DD1BEAF58C003F87DF /* VivaRealChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5BA60DB1BEAF58C003F87DF /* VivaRealChallenge.xcdatamodeld */; };
 		C5BA60DF1BEAF58C003F87DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5BA60DE1BEAF58C003F87DF /* Assets.xcassets */; };
 		C5BA60E21BEAF58C003F87DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5BA60E01BEAF58C003F87DF /* LaunchScreen.storyboard */; };
+		C5CC8A9E1BEAFD5C005C4104 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8A9D1BEAFD5C005C4104 /* CollectionViewController.m */; };
+		C5CC8AA11BEB0506005C4104 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8AA01BEB0506005C4104 /* DetailsViewController.m */; };
+		C5CC8AA41BEB0547005C4104 /* GameCardViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8AA31BEB0547005C4104 /* GameCardViewCell.m */; };
+		C5CC8AA71BEB059E005C4104 /* TwitchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8AA61BEB059E005C4104 /* TwitchManager.m */; };
+		C5CC8AAB1BEB07BD005C4104 /* CollectionViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8AAA1BEB07BD005C4104 /* CollectionViewModel.m */; };
+		C5CC8AB11BEB07F1005C4104 /* GameStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8AB01BEB07F1005C4104 /* GameStoreManager.m */; };
+		C5CC8AB71BEB08F8005C4104 /* CollectionViewController+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8AB61BEB08F8005C4104 /* CollectionViewController+Factory.m */; };
+		C5CC8AC81BEB2483005C4104 /* Game+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8AC51BEB2483005C4104 /* Game+CoreDataProperties.m */; };
+		C5CC8AC91BEB2483005C4104 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = C5CC8AC71BEB2483005C4104 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8979A10C117A696BEBF0E88F /* Pods-VivaRealChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivaRealChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-VivaRealChallenge/Pods-VivaRealChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		C57077CD1BEB6EA8008903DD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C57077CF1BEB76F0008903DD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C58E9F171BEB56AB008637E6 /* GameCardViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GameCardViewCell.xib; sourceTree = "<group>"; };
 		C5BA60CC1BEAF58C003F87DF /* VivaRealChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivaRealChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5BA60D01BEAF58C003F87DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C5BA60D21BEAF58C003F87DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,6 +41,25 @@
 		C5BA60DE1BEAF58C003F87DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5BA60E11BEAF58C003F87DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C5BA60E31BEAF58C003F87DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5CC8A9C1BEAFD5C005C4104 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		C5CC8A9D1BEAFD5C005C4104 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		C5CC8A9F1BEB0506005C4104 /* DetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		C5CC8AA01BEB0506005C4104 /* DetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		C5CC8AA21BEB0547005C4104 /* GameCardViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCardViewCell.h; sourceTree = "<group>"; };
+		C5CC8AA31BEB0547005C4104 /* GameCardViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCardViewCell.m; sourceTree = "<group>"; };
+		C5CC8AA51BEB059E005C4104 /* TwitchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitchManager.h; sourceTree = "<group>"; };
+		C5CC8AA61BEB059E005C4104 /* TwitchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitchManager.m; sourceTree = "<group>"; };
+		C5CC8AA91BEB07BD005C4104 /* CollectionViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewModel.h; sourceTree = "<group>"; };
+		C5CC8AAA1BEB07BD005C4104 /* CollectionViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewModel.m; sourceTree = "<group>"; };
+		C5CC8AAF1BEB07F1005C4104 /* GameStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStoreManager.h; sourceTree = "<group>"; };
+		C5CC8AB01BEB07F1005C4104 /* GameStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameStoreManager.m; sourceTree = "<group>"; };
+		C5CC8AB21BEB085C005C4104 /* CompletionBlocks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CompletionBlocks.h; sourceTree = "<group>"; };
+		C5CC8AB51BEB08F8005C4104 /* CollectionViewController+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CollectionViewController+Factory.h"; sourceTree = "<group>"; };
+		C5CC8AB61BEB08F8005C4104 /* CollectionViewController+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CollectionViewController+Factory.m"; sourceTree = "<group>"; };
+		C5CC8AC41BEB2483005C4104 /* Game+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Game+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C5CC8AC51BEB2483005C4104 /* Game+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Game+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C5CC8AC61BEB2483005C4104 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		C5CC8AC71BEB2483005C4104 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
 		DBA470A742FD9FAC3E4D8CC4 /* libPods-VivaRealChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VivaRealChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF3C4EE6E1393006920D07C9 /* Pods-VivaRealChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VivaRealChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VivaRealChallenge/Pods-VivaRealChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -36,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57077CE1BEB6EA8008903DD /* SystemConfiguration.framework in Frameworks */,
 				2DF2C2AE01A1BB0DA1314354 /* libPods-VivaRealChallenge.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -78,6 +112,7 @@
 				C5BA60E01BEAF58C003F87DF /* LaunchScreen.storyboard */,
 				C5F080BD1BEAF754008854E4 /* View */,
 				C5F080BE1BEAF76D008854E4 /* Controller */,
+				C5CC8AA81BEB079B005C4104 /* ViewModel */,
 				C5F080BF1BEAF77B008854E4 /* Model */,
 				C5BA60E31BEAF58C003F87DF /* Info.plist */,
 				C5BA60CF1BEAF58C003F87DF /* Supporting Files */,
@@ -93,9 +128,53 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C5CC8AA81BEB079B005C4104 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C5CC8AA91BEB07BD005C4104 /* CollectionViewModel.h */,
+				C5CC8AAA1BEB07BD005C4104 /* CollectionViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		C5CC8AB31BEB08CD005C4104 /* CollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5CC8A9C1BEAFD5C005C4104 /* CollectionViewController.h */,
+				C5CC8A9D1BEAFD5C005C4104 /* CollectionViewController.m */,
+				C5CC8AB51BEB08F8005C4104 /* CollectionViewController+Factory.h */,
+				C5CC8AB61BEB08F8005C4104 /* CollectionViewController+Factory.m */,
+			);
+			name = CollectionViewController;
+			sourceTree = "<group>";
+		};
+		C5CC8AB41BEB08DF005C4104 /* DetailsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C5CC8A9F1BEB0506005C4104 /* DetailsViewController.h */,
+				C5CC8AA01BEB0506005C4104 /* DetailsViewController.m */,
+			);
+			name = DetailsViewController;
+			sourceTree = "<group>";
+		};
+		C5CC8ACA1BEB248A005C4104 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				C5BA60DB1BEAF58C003F87DF /* VivaRealChallenge.xcdatamodeld */,
+				C5CC8AC41BEB2483005C4104 /* Game+CoreDataProperties.h */,
+				C5CC8AC51BEB2483005C4104 /* Game+CoreDataProperties.m */,
+				C5CC8AC61BEB2483005C4104 /* Game.h */,
+				C5CC8AC71BEB2483005C4104 /* Game.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
 		C5F080BD1BEAF754008854E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C58E9F171BEB56AB008637E6 /* GameCardViewCell.xib */,
+				C5CC8AA21BEB0547005C4104 /* GameCardViewCell.h */,
+				C5CC8AA31BEB0547005C4104 /* GameCardViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -103,6 +182,8 @@
 		C5F080BE1BEAF76D008854E4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C5CC8AB31BEB08CD005C4104 /* CollectionViewController */,
+				C5CC8AB41BEB08DF005C4104 /* DetailsViewController */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -110,9 +191,14 @@
 		C5F080BF1BEAF77B008854E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C5BA60DB1BEAF58C003F87DF /* VivaRealChallenge.xcdatamodeld */,
+				C5CC8AA51BEB059E005C4104 /* TwitchManager.h */,
+				C5CC8AA61BEB059E005C4104 /* TwitchManager.m */,
+				C5CC8AAF1BEB07F1005C4104 /* GameStoreManager.h */,
+				C5CC8AB01BEB07F1005C4104 /* GameStoreManager.m */,
+				C5CC8ACA1BEB248A005C4104 /* Core Data */,
 				C5BA60D21BEAF58C003F87DF /* AppDelegate.h */,
 				C5BA60D31BEAF58C003F87DF /* AppDelegate.m */,
+				C5CC8AB21BEB085C005C4104 /* CompletionBlocks.h */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -120,6 +206,8 @@
 		DAFB349AF628EA5875E1B21B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C57077CF1BEB76F0008903DD /* MobileCoreServices.framework */,
+				C57077CD1BEB6EA8008903DD /* SystemConfiguration.framework */,
 				DBA470A742FD9FAC3E4D8CC4 /* libPods-VivaRealChallenge.a */,
 			);
 			name = Frameworks;
@@ -185,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C58E9F181BEB56AB008637E6 /* GameCardViewCell.xib in Resources */,
 				C5BA60E21BEAF58C003F87DF /* LaunchScreen.storyboard in Resources */,
 				C5BA60DF1BEAF58C003F87DF /* Assets.xcassets in Resources */,
 				C5BA60DA1BEAF58C003F87DF /* Main.storyboard in Resources */,
@@ -246,9 +335,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5CC8AB71BEB08F8005C4104 /* CollectionViewController+Factory.m in Sources */,
+				C5CC8AAB1BEB07BD005C4104 /* CollectionViewModel.m in Sources */,
+				C5CC8AA41BEB0547005C4104 /* GameCardViewCell.m in Sources */,
+				C5CC8AC91BEB2483005C4104 /* Game.m in Sources */,
+				C5CC8A9E1BEAFD5C005C4104 /* CollectionViewController.m in Sources */,
+				C5CC8AA11BEB0506005C4104 /* DetailsViewController.m in Sources */,
+				C5CC8AA71BEB059E005C4104 /* TwitchManager.m in Sources */,
 				C5BA60D41BEAF58C003F87DF /* AppDelegate.m in Sources */,
+				C5CC8AB11BEB07F1005C4104 /* GameStoreManager.m in Sources */,
 				C5BA60D11BEAF58C003F87DF /* main.m in Sources */,
 				C5BA60DD1BEAF58C003F87DF /* VivaRealChallenge.xcdatamodeld in Sources */,
+				C5CC8AC81BEB2483005C4104 /* Game+CoreDataProperties.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
