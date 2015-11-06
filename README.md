@@ -18,7 +18,7 @@ From the essential and bonus features, these are the ones that were implemented:
 
 ## Architecture
 
-This project was coded using [MVVM architecture](https://blog.ios-developers.io/dont-let-your-uiviewcontroller-think-for-itself/). (Special thanks to [@Ian](https://twitter.com/IanKay) for the awesome article!
+This project was coded using [MVVM architecture](https://blog.ios-developers.io/dont-let-your-uiviewcontroller-think-for-itself/). (Special thanks to [@Ian](https://twitter.com/IanKay) for the awesome article!)
 
 ## External Frameworks
 
